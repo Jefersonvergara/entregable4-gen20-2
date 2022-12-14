@@ -1,0 +1,52 @@
+.card{
+    padding: 1.2em;
+    border-radius: 1.2em;
+    border: solid 1px #aaa5;
+    width:100% ;
+    max-width: 380px;
+}
+.card__title{
+    margin-bottom: 0.6em;
+    font-size: 1.4rem;
+}
+.card__body{
+    display: grid;
+    gap: 0.5em;
+    margin-bottom: 1.2em;
+}
+.card__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+.card__span{
+    text-transform: uppercase;
+    color: #736d6d;
+    font-size: 0.8rem;
+    position: relative;
+    left: 1em;
+}
+.card__footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8em;
+
+}
+.card__btn{
+    font-size: 1.4rem;
+    padding: 0.4em;
+    border-radius: 0.2em;
+}
+.card__btn__trash{
+    background-color:#D85D5D; 
+    border: 1px solid #D93F3F;
+    border-radius: 4px;
+}
+.card__btn__edit{
+    
+background: #0d4298;
+/* Gray 4 */
+
+border: 1px solid #1a60c9;
+border-radius: 4px;
+}

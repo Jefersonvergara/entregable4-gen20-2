@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 
 const FormUser = ({createNewUser, updateInfo,updateUserById,setupdateInfo}) => {
-    console.log(updateInfo)
+    //console.log(updateInfo)
 
     useEffect(() => {
         reset(updateInfo)
@@ -37,7 +37,7 @@ const FormUser = ({createNewUser, updateInfo,updateUserById,setupdateInfo}) => {
 
   return (
     <form onSubmit={handleSubmit(submit)}>
-      <h2>create</h2>
+      <h2>{updateInfo? 'Update User': "Create User"}</h2>
       <div>
         <label htmlFor="email">EMAIL</label>
         <input type="email" id="email" {...register("email")} />
