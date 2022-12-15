@@ -1,9 +1,14 @@
 .card{
-    padding: 1.2em;
+    padding: 1.8em 1.5em;
     border-radius: 1.2em;
     border: solid 1px #aaa5;
     width:100% ;
     max-width: 380px;
+    
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 200ms ease ;
 }
 .card__title{
     margin-bottom: 0.6em;
@@ -33,6 +38,8 @@
 
 }
 .card__btn{
+    width: 1.8em;
+    aspect-ratio: 1;
     font-size: 1.4rem;
     padding: 0.4em;
     border-radius: 0.2em;
@@ -47,6 +54,10 @@
 background: #0d4298;
 /* Gray 4 */
 
-border: 1px solid #1a60c9;
+border: 1px solid currentColor;
 border-radius: 4px;
+}
+.card__btn:hover {
+    box-shadow: 0 0 0.4em #0004;
+    transition: box-shadow 100ms ease;
 }

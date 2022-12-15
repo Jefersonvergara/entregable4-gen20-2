@@ -23,5 +23,7 @@
     cursor: pointer;
  }
  input{
+   font-family: inherit;
     outline: 0;
+    color: inherit;
  }
